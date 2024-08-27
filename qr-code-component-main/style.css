@@ -1,0 +1,85 @@
+*,::before, ::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-size: 15px;
+    font-family: 'Outfit';
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+    background-color: hsl(212, 45%, 89%);
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+    margin: 40px 40px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 23%;
+    height: 80%;
+
+    background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.qr-code-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.code-container {
+    text-align: center;
+  }
+  
+  .code-container h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .code-container p {
+    font-size: 1rem;
+    color: #888;
+  }
+
+
+
+
+.attribution { font-size: 11px; text-align: center; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 1400px) {
+    .main-container {
+        width: 375px;
+        height: 400px;
+    }
+}
+        
